@@ -1,0 +1,10 @@
+<div>
+  <a routerLink="">Home</a>
+  <a routerLink="list">List of podcasts</a>
+  <a [routerLink]="['play', 0]">Play</a>
+  <a routerLink="info">Info</a>
+</div>
+
+<p style="text-align: center;">
+  <router-outlet></router-outlet>
+</p>

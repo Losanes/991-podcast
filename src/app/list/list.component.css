@@ -1,0 +1,23 @@
+table {
+    width: 99vw;
+    min-width: 350px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+td {
+    padding: 10px 10px;
+    background-color: rgb(197, 234, 246);
+    color: black;
+}
+td:not(.replay) {
+    max-width: 10vw;
+    min-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
